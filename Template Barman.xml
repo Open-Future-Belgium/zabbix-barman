@@ -4,7 +4,7 @@
     <date>2017-07-24T09:41:20Z</date>
     <groups>
         <group>
-            <name>Templates_LNE</name>
+            <name>Templates</name>
         </group>
     </groups>
     <templates>
@@ -14,7 +14,7 @@
             <description/>
             <groups>
                 <group>
-                    <name>Templates_LNE</name>
+                    <name>Templates</name>
                 </group>
             </groups>
             <applications>
