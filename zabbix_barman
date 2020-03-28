@@ -1,0 +1,1 @@
+zabbix	ALL=(barman)	NOPASSWD: /usr/bin/barman,/usr/share/zabbix-agent/scripts/barman_discovery.py
