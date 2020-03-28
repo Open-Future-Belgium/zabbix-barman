@@ -1,9 +1,16 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
+from __future__ import print_function
 
-import subprocess
 import json
+import subprocess
+import sys
 
-barman_list = subprocess.Popen(['barman','list-server'],stdout=subprocess.PIPE)
+try:
+    barman_list = subprocess.Popen(['barman','list-server'],stdout=subprocess.PIPE)
+except (OSError) as e:
+    print(e)
+    print("install barman first",file=sys.stdout)
+    sys.exit(1)
 
 value = {'data':[] }
 
