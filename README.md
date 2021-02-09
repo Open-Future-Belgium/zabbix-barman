@@ -26,6 +26,6 @@ zabbix ALL=(ALL) NOPASSWD: ALL
 * chown zabbix:zabbix barman_discovery.py
 
 * Import Template Barman.xml in the Zabbix Server
-* Link Template to your Barman Server 
+* Link Template to your Barman Server in Zabbix (Configuration -> Hosts - Barman host - Tab templates)
 
 * Auto Discovery will do the rest
