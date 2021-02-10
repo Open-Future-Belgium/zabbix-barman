@@ -14,7 +14,8 @@ In order to work you need to configure following option for Zabbix
   * Defaults:zabbix !requiretty
   * zabbix ALL=(ALL) NOPASSWD: ALL
 
-* Copy the userparameter_barman.conf file to your zabbix agent on the barman server. Usually this is /etc/zabbix/zabbix_agent2.d or /etc/zabbix/zabbix_agentd.d
+* Copy the userparameter_barman.conf file to your zabbix agent on the barman server. 
+  * Usually this is /etc/zabbix/zabbix_agent2.d or /etc/zabbix/zabbix_agentd.d
 
 * Alter the permissions
 * chmod 660 userparameter_barman.conf
