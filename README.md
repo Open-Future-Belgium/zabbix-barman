@@ -24,7 +24,7 @@ In order to work you need to configure following option for Zabbix
 
 * Copy barman_discovery.py to /usr/share/zabbix-agent/scripts/barman_discovery.py
 * chmod 550 barman_discovery.py
-* chown zabbix:zabbix barman_discovery.py
+* chown barman:barman barman_discovery.py
 
 * Import Template Barman.xml in the Zabbix Server
 * Link Template to your Barman Server in Zabbix (Configuration -> Hosts - Barman host - Tab templates)
