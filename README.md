@@ -12,7 +12,7 @@ In order to work you need to configure following option for Zabbix
 * In your sudoers file add following option: 
 * add it for example here on CentOS (/etc/sudoers.d/zabbix)
   * Defaults:zabbix !requiretty
-  * zabbix ALL=(ALL) NOPASSWD: ALL
+  * zabbix ALL=(ALL) NOPASSWD: ALL (stricter permissions can be set use zabbix_barman as example)
 
 * Copy the userparameter_barman.conf file to your zabbix agent on the barman server. 
   * Usually this is /etc/zabbix/zabbix_agent2.d or /etc/zabbix/zabbix_agentd.d
